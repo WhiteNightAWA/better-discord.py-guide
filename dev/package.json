@@ -14,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "vuepress-theme-hope": "^1.20.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   }
 }
